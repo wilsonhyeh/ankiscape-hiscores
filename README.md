@@ -36,7 +36,7 @@ npx wrangler pages secret put SUPABASE_KEY --project-name ankiscape-hiscores
 npx wrangler pages deploy public --project-name ankiscape-hiscores --branch main
 ```
 
-The plan, decisions and approval points are in `~/Documents/HQ/plans/ankiscape-public-hiscores-site.md`.
+The plan, decisions and approval points are in `~/Documents/HQ/plans/archive/ankiscape-public-hiscores-site.md`.
 
 ## Rules
 
