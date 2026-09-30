@@ -1,7 +1,7 @@
 // Pure Hiscores presentation logic, a port of evolved/ui/hiscores_model.py.
 // No DOM here. Parity with the add-on is enforced by tests/golden.json,
 // which is generated from the add-on's real Python.
-import { MICRO, levelFromXpMicro } from "./levels.js";
+import { MICRO, levelFromXpMicro, xpProgress, xpToNext } from "./levels.js";
 
 export const SKILLS = ["mining", "woodcutting", "smithing", "crafting", "fishing", "cooking"];
 export const OVERALL = "overall";
@@ -153,4 +153,63 @@ export function displayName(row) {
 export function levelLabel(board, level) {
   if (level === null || level === undefined) return "—";
   return board === OVERALL ? `Total ${level}` : `Lv ${level}`;
+}
+
+// ------------------------------------------------------------- player card --
+// Ports of card_summary / card_rows / best_skill in hiscores_model.py.
+
+export function bestSkill(entry) {
+  let best = null;
+  let bestXp = 0;
+  for (const skill of SKILLS) {
+    const xp = entry.xp[skill] || 0;
+    if (xp > bestXp) {
+      best = skill;
+      bestXp = xp;
+    }
+  }
+  return best;
+}
+
+export function cardSummary(entry, thresholds) {
+  const known = SKILLS.every((s) => entry.xp[s] !== undefined && entry.xp[s] !== null);
+  const totalXp = SKILLS.reduce((a, s) => a + (entry.xp[s] || 0), 0);
+  return {
+    name: entry.name,
+    is_demo: Boolean(entry.is_demo),
+    total_level: totalLevel(entry.xp, thresholds),
+    total_xp: known ? totalXp : null,
+    overall_rank: entry.ranks[OVERALL] ?? null,
+    best: bestSkill(entry),
+  };
+}
+
+export function cardRows(entry, thresholds) {
+  return SKILLS.map((skill) => {
+    const xp = entry.xp[skill];
+    const rank = entry.ranks[skill];
+    const known = xp !== undefined && xp !== null;
+    return {
+      skill,
+      title: boardTitle(skill),
+      xp: known ? xp : null,
+      level: known ? levelOf(xp, thresholds) : null,
+      rank: known && xp && rank ? rank : null,
+      trained: Boolean(known && xp),
+    };
+  });
+}
+
+// What the bar under a skill says. Never colour-only: always words.
+export function barState(row, thresholds) {
+  if (row.xp === null) return { fraction: 0, caption: "Unknown", kind: "unknown" };
+  if (!row.trained) return { fraction: 0, caption: "Not trained yet", kind: "untrained" };
+  if (row.level >= 99) return { fraction: 1, caption: "Level 99, maxed", kind: "maxed" };
+  const toNext = xpToNext(row.xp, thresholds, row.level);
+  return {
+    fraction: xpProgress(row.xp, thresholds, row.level),
+    caption: `${toNext.toLocaleString("en-US")} XP to level ${row.level + 1}`,
+    kind: "progress",
+    toNext,
+  };
 }

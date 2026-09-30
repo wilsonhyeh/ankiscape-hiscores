@@ -111,7 +111,37 @@ for name, sx in cases.items():
         "population": {b: list(hm.population(boards[b])) for b in hm.BOARDS},
     })
 
+# ---- player cards + xp bars ---------------------------------------------------
+from evolved.ui import theme as _theme  # noqa: E402
+
+def to_next(xp_micro, level):
+    """Same arithmetic as XpBar.set_xp (widgets.py); that class needs Qt so the
+    formula is repeated here, not imported."""
+    if level >= 99:
+        return 0
+    nxt = int(TH[level]) * MICRO
+    return max(0, nxt - max(0, int(xp_micro))) // MICRO
+
+bars = []
+for lvl in (1, 2, 10, 50, 98, 99):
+    lo = TH[lvl - 1] * MICRO
+    hi = TH[lvl] * MICRO if lvl < 99 else lo
+    for xp in sorted({lo, lo + 1, (lo + hi) // 2, max(lo, hi - 1), hi}):
+        bars.append({"xp": xp, "level": lvl,
+                     "progress": _theme.xp_progress(xp, TH, lvl),
+                     "to_next": to_next(xp, lvl)})
+
+cards = []
+for c in index_cases:
+    idx = hm.player_index(c["boards"])
+    for key in sorted(idx):
+        entry = idx[key]
+        cards.append({"case": c["name"], "key": key,
+                      "summary": hm.card_summary(entry, TH),
+                      "rows": hm.card_rows(entry, TH)})
+
 out = {
+    "bars": bars, "cards": cards,
     "generated_from": "evolved/ui/hiscores_model.py + evolved/logic_pure.py",
     "thresholds_len": len(TH),
     "levels": levels, "formatting": formatting, "ordinals": ordinals,

@@ -5,6 +5,8 @@ Read-only public Hiscores page for [AnkiScape](https://github.com/wilsonhyeh/ank
 - **Page:** `public/` (plain HTML/CSS/ES modules, no build step, no dependencies at runtime).
 - **Data:** `functions/api/boards.js` (a Cloudflare Pages Function) fetches all seven boards from Supabase's `hiscores` RPC and caches the merged result at the edge for 60 s. The Supabase key lives only in a Pages secret (`SUPABASE_KEY`); it is never in this repo or the page.
 - **Level math:** `public/lib/` is a port of the add-on's `evolved/ui/hiscores_model.py` and `evolved/logic_pure.py`. `tests/golden.json` is generated from the add-on's real Python (`scripts/make-golden.py`), so the port cannot drift silently.
+- **Board:** one ranked list (no podium), like the add-on's redesign. Ranks 1-3 get a medal bar icon after the name and a matching outline (ties share a medal). Click a row for a player card: six skills with level, XP bar, XP to next level and rank, built from the boards already loaded. There is no per-player URL and no `public_profile` call.
+- **Art:** the medal bars are original SVG ingots. The add-on's Gold/Silver/Bronze bar art is Jagex game art whose redistribution is not cleared (`docs/ASSET-RIGHTS.md` in the add-on repo), so it is deliberately not copied here. No skill icons either.
 - **Not indexed:** `X-Robots-Tag: noindex, nofollow` and a robots meta tag. Remove both to allow search engines.
 
 ## Run locally

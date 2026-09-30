@@ -12,6 +12,10 @@ for (const [w, h] of [[1280, 900], [360, 800]]) {
   await page.screenshot({ path: `${out}live-overall-level-${w}.png`, fullPage: true });
   await page.click("#tab-mining");
   await page.screenshot({ path: `${out}live-mining-${w}.png`, fullPage: true });
+  await page.click("#tab-overall");
+  await page.click("#sort-xp");
+  await page.locator(".row").first().click();
+  await page.screenshot({ path: `${out}live-card-${w}.png`, fullPage: true });
 }
 await browser.close();
 console.log("done");

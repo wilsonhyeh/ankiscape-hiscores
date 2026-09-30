@@ -1,4 +1,6618 @@
 {
+ "bars": [
+  {
+   "level": 1,
+   "progress": 0.0,
+   "to_next": 83,
+   "xp": 0
+  },
+  {
+   "level": 1,
+   "progress": 1.2048192771084337e-08,
+   "to_next": 82,
+   "xp": 1
+  },
+  {
+   "level": 1,
+   "progress": 0.5,
+   "to_next": 41,
+   "xp": 41500000
+  },
+  {
+   "level": 1,
+   "progress": 0.9999999879518072,
+   "to_next": 0,
+   "xp": 82999999
+  },
+  {
+   "level": 1,
+   "progress": 1.0,
+   "to_next": 0,
+   "xp": 83000000
+  },
+  {
+   "level": 2,
+   "progress": 0.0,
+   "to_next": 91,
+   "xp": 83000000
+  },
+  {
+   "level": 2,
+   "progress": 1.0989010989010988e-08,
+   "to_next": 90,
+   "xp": 83000001
+  },
+  {
+   "level": 2,
+   "progress": 0.5,
+   "to_next": 45,
+   "xp": 128500000
+  },
+  {
+   "level": 2,
+   "progress": 0.999999989010989,
+   "to_next": 0,
+   "xp": 173999999
+  },
+  {
+   "level": 2,
+   "progress": 1.0,
+   "to_next": 0,
+   "xp": 174000000
+  },
+  {
+   "level": 10,
+   "progress": 0.0,
+   "to_next": 204,
+   "xp": 1154000000
+  },
+  {
+   "level": 10,
+   "progress": 4.9019607843137254e-09,
+   "to_next": 203,
+   "xp": 1154000001
+  },
+  {
+   "level": 10,
+   "progress": 0.5,
+   "to_next": 102,
+   "xp": 1256000000
+  },
+  {
+   "level": 10,
+   "progress": 0.9999999950980392,
+   "to_next": 0,
+   "xp": 1357999999
+  },
+  {
+   "level": 10,
+   "progress": 1.0,
+   "to_next": 0,
+   "xp": 1358000000
+  },
+  {
+   "level": 50,
+   "progress": 0.0,
+   "to_next": 10612,
+   "xp": 101333000000
+  },
+  {
+   "level": 50,
+   "progress": 9.423294383716548e-11,
+   "to_next": 10611,
+   "xp": 101333000001
+  },
+  {
+   "level": 50,
+   "progress": 0.5,
+   "to_next": 5306,
+   "xp": 106639000000
+  },
+  {
+   "level": 50,
+   "progress": 0.999999999905767,
+   "to_next": 0,
+   "xp": 111944999999
+  },
+  {
+   "level": 50,
+   "progress": 1.0,
+   "to_next": 0,
+   "xp": 111945000000
+  },
+  {
+   "level": 98,
+   "progress": 0.0,
+   "to_next": 1228825,
+   "xp": 11805606000000
+  },
+  {
+   "level": 98,
+   "progress": 8.137855268244055e-13,
+   "to_next": 1228824,
+   "xp": 11805606000001
+  },
+  {
+   "level": 98,
+   "progress": 0.5,
+   "to_next": 614412,
+   "xp": 12420018500000
+  },
+  {
+   "level": 98,
+   "progress": 0.9999999999991862,
+   "to_next": 0,
+   "xp": 13034430999999
+  },
+  {
+   "level": 98,
+   "progress": 1.0,
+   "to_next": 0,
+   "xp": 13034431000000
+  },
+  {
+   "level": 99,
+   "progress": 1.0,
+   "to_next": 0,
+   "xp": 13034431000000
+  },
+  {
+   "level": 99,
+   "progress": 1.0,
+   "to_next": 0,
+   "xp": 13034431000001
+  }
+ ],
+ "cards": [
+  {
+   "case": "small_complete_boards",
+   "key": "ann",
+   "rows": [
+    {
+     "level": 20,
+     "rank": 1,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 5000000000
+    },
+    {
+     "level": 2,
+     "rank": 1,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 90000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": 1,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 1000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "Ann",
+    "overall_rank": 1,
+    "total_level": 26,
+    "total_xp": 5091000000
+   }
+  },
+  {
+   "case": "small_complete_boards",
+   "key": "bob",
+   "rows": [
+    {
+     "level": 4,
+     "rank": 2,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 300000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": 1,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 10000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "Bob",
+    "overall_rank": 2,
+    "total_level": 9,
+    "total_xp": 310000000
+   }
+  },
+  {
+   "case": "small_complete_boards",
+   "key": "cy",
+   "rows": [
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": false,
+     "xp": 0
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": null,
+    "is_demo": false,
+    "name": "Cy",
+    "overall_rank": 3,
+    "total_level": 6,
+    "total_xp": 0
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "only",
+   "rows": [
+    {
+     "level": null,
+     "rank": null,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": false,
+     "xp": null
+    },
+    {
+     "level": null,
+     "rank": null,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": false,
+     "xp": null
+    },
+    {
+     "level": null,
+     "rank": null,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": false,
+     "xp": null
+    },
+    {
+     "level": null,
+     "rank": null,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": false,
+     "xp": null
+    },
+    {
+     "level": null,
+     "rank": null,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": false,
+     "xp": null
+    },
+    {
+     "level": 1,
+     "rank": 1,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": true,
+     "xp": 1000000
+    }
+   ],
+   "summary": {
+    "best": "cooking",
+    "is_demo": false,
+    "name": "Only",
+    "overall_rank": 101,
+    "total_level": null,
+    "total_xp": null
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p000",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 1,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 200000000
+    },
+    {
+     "level": 3,
+     "rank": 1,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 200000000
+    },
+    {
+     "level": 3,
+     "rank": 1,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 200000000
+    },
+    {
+     "level": 3,
+     "rank": 1,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 200000000
+    },
+    {
+     "level": 3,
+     "rank": 1,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 200000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P000",
+    "overall_rank": 1,
+    "total_level": 16,
+    "total_xp": 1000000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p001",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 2,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 199000000
+    },
+    {
+     "level": 3,
+     "rank": 2,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 199000000
+    },
+    {
+     "level": 3,
+     "rank": 2,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 199000000
+    },
+    {
+     "level": 3,
+     "rank": 2,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 199000000
+    },
+    {
+     "level": 3,
+     "rank": 2,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 199000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P001",
+    "overall_rank": 2,
+    "total_level": 16,
+    "total_xp": 995000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p002",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 3,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 198000000
+    },
+    {
+     "level": 3,
+     "rank": 3,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 198000000
+    },
+    {
+     "level": 3,
+     "rank": 3,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 198000000
+    },
+    {
+     "level": 3,
+     "rank": 3,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 198000000
+    },
+    {
+     "level": 3,
+     "rank": 3,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 198000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P002",
+    "overall_rank": 3,
+    "total_level": 16,
+    "total_xp": 990000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p003",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 4,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 197000000
+    },
+    {
+     "level": 3,
+     "rank": 4,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 197000000
+    },
+    {
+     "level": 3,
+     "rank": 4,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 197000000
+    },
+    {
+     "level": 3,
+     "rank": 4,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 197000000
+    },
+    {
+     "level": 3,
+     "rank": 4,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 197000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P003",
+    "overall_rank": 4,
+    "total_level": 16,
+    "total_xp": 985000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p004",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 5,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 196000000
+    },
+    {
+     "level": 3,
+     "rank": 5,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 196000000
+    },
+    {
+     "level": 3,
+     "rank": 5,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 196000000
+    },
+    {
+     "level": 3,
+     "rank": 5,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 196000000
+    },
+    {
+     "level": 3,
+     "rank": 5,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 196000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P004",
+    "overall_rank": 5,
+    "total_level": 16,
+    "total_xp": 980000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p005",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 6,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 195000000
+    },
+    {
+     "level": 3,
+     "rank": 6,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 195000000
+    },
+    {
+     "level": 3,
+     "rank": 6,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 195000000
+    },
+    {
+     "level": 3,
+     "rank": 6,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 195000000
+    },
+    {
+     "level": 3,
+     "rank": 6,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 195000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P005",
+    "overall_rank": 6,
+    "total_level": 16,
+    "total_xp": 975000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p006",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 7,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 194000000
+    },
+    {
+     "level": 3,
+     "rank": 7,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 194000000
+    },
+    {
+     "level": 3,
+     "rank": 7,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 194000000
+    },
+    {
+     "level": 3,
+     "rank": 7,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 194000000
+    },
+    {
+     "level": 3,
+     "rank": 7,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 194000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P006",
+    "overall_rank": 7,
+    "total_level": 16,
+    "total_xp": 970000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p007",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 8,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 193000000
+    },
+    {
+     "level": 3,
+     "rank": 8,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 193000000
+    },
+    {
+     "level": 3,
+     "rank": 8,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 193000000
+    },
+    {
+     "level": 3,
+     "rank": 8,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 193000000
+    },
+    {
+     "level": 3,
+     "rank": 8,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 193000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P007",
+    "overall_rank": 8,
+    "total_level": 16,
+    "total_xp": 965000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p008",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 9,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 192000000
+    },
+    {
+     "level": 3,
+     "rank": 9,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 192000000
+    },
+    {
+     "level": 3,
+     "rank": 9,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 192000000
+    },
+    {
+     "level": 3,
+     "rank": 9,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 192000000
+    },
+    {
+     "level": 3,
+     "rank": 9,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 192000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P008",
+    "overall_rank": 9,
+    "total_level": 16,
+    "total_xp": 960000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p009",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 10,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 191000000
+    },
+    {
+     "level": 3,
+     "rank": 10,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 191000000
+    },
+    {
+     "level": 3,
+     "rank": 10,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 191000000
+    },
+    {
+     "level": 3,
+     "rank": 10,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 191000000
+    },
+    {
+     "level": 3,
+     "rank": 10,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 191000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P009",
+    "overall_rank": 10,
+    "total_level": 16,
+    "total_xp": 955000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p010",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 11,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 190000000
+    },
+    {
+     "level": 3,
+     "rank": 11,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 190000000
+    },
+    {
+     "level": 3,
+     "rank": 11,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 190000000
+    },
+    {
+     "level": 3,
+     "rank": 11,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 190000000
+    },
+    {
+     "level": 3,
+     "rank": 11,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 190000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P010",
+    "overall_rank": 11,
+    "total_level": 16,
+    "total_xp": 950000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p011",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 12,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 189000000
+    },
+    {
+     "level": 3,
+     "rank": 12,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 189000000
+    },
+    {
+     "level": 3,
+     "rank": 12,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 189000000
+    },
+    {
+     "level": 3,
+     "rank": 12,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 189000000
+    },
+    {
+     "level": 3,
+     "rank": 12,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 189000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P011",
+    "overall_rank": 12,
+    "total_level": 16,
+    "total_xp": 945000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p012",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 13,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 188000000
+    },
+    {
+     "level": 3,
+     "rank": 13,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 188000000
+    },
+    {
+     "level": 3,
+     "rank": 13,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 188000000
+    },
+    {
+     "level": 3,
+     "rank": 13,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 188000000
+    },
+    {
+     "level": 3,
+     "rank": 13,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 188000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P012",
+    "overall_rank": 13,
+    "total_level": 16,
+    "total_xp": 940000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p013",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 14,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 187000000
+    },
+    {
+     "level": 3,
+     "rank": 14,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 187000000
+    },
+    {
+     "level": 3,
+     "rank": 14,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 187000000
+    },
+    {
+     "level": 3,
+     "rank": 14,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 187000000
+    },
+    {
+     "level": 3,
+     "rank": 14,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 187000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P013",
+    "overall_rank": 14,
+    "total_level": 16,
+    "total_xp": 935000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p014",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 15,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 186000000
+    },
+    {
+     "level": 3,
+     "rank": 15,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 186000000
+    },
+    {
+     "level": 3,
+     "rank": 15,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 186000000
+    },
+    {
+     "level": 3,
+     "rank": 15,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 186000000
+    },
+    {
+     "level": 3,
+     "rank": 15,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 186000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P014",
+    "overall_rank": 15,
+    "total_level": 16,
+    "total_xp": 930000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p015",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 16,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 185000000
+    },
+    {
+     "level": 3,
+     "rank": 16,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 185000000
+    },
+    {
+     "level": 3,
+     "rank": 16,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 185000000
+    },
+    {
+     "level": 3,
+     "rank": 16,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 185000000
+    },
+    {
+     "level": 3,
+     "rank": 16,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 185000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P015",
+    "overall_rank": 16,
+    "total_level": 16,
+    "total_xp": 925000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p016",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 17,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 184000000
+    },
+    {
+     "level": 3,
+     "rank": 17,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 184000000
+    },
+    {
+     "level": 3,
+     "rank": 17,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 184000000
+    },
+    {
+     "level": 3,
+     "rank": 17,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 184000000
+    },
+    {
+     "level": 3,
+     "rank": 17,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 184000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P016",
+    "overall_rank": 17,
+    "total_level": 16,
+    "total_xp": 920000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p017",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 18,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 183000000
+    },
+    {
+     "level": 3,
+     "rank": 18,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 183000000
+    },
+    {
+     "level": 3,
+     "rank": 18,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 183000000
+    },
+    {
+     "level": 3,
+     "rank": 18,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 183000000
+    },
+    {
+     "level": 3,
+     "rank": 18,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 183000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P017",
+    "overall_rank": 18,
+    "total_level": 16,
+    "total_xp": 915000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p018",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 19,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 182000000
+    },
+    {
+     "level": 3,
+     "rank": 19,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 182000000
+    },
+    {
+     "level": 3,
+     "rank": 19,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 182000000
+    },
+    {
+     "level": 3,
+     "rank": 19,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 182000000
+    },
+    {
+     "level": 3,
+     "rank": 19,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 182000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P018",
+    "overall_rank": 19,
+    "total_level": 16,
+    "total_xp": 910000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p019",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 20,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 181000000
+    },
+    {
+     "level": 3,
+     "rank": 20,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 181000000
+    },
+    {
+     "level": 3,
+     "rank": 20,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 181000000
+    },
+    {
+     "level": 3,
+     "rank": 20,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 181000000
+    },
+    {
+     "level": 3,
+     "rank": 20,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 181000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P019",
+    "overall_rank": 20,
+    "total_level": 16,
+    "total_xp": 905000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p020",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 21,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 180000000
+    },
+    {
+     "level": 3,
+     "rank": 21,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 180000000
+    },
+    {
+     "level": 3,
+     "rank": 21,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 180000000
+    },
+    {
+     "level": 3,
+     "rank": 21,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 180000000
+    },
+    {
+     "level": 3,
+     "rank": 21,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 180000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P020",
+    "overall_rank": 21,
+    "total_level": 16,
+    "total_xp": 900000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p021",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 22,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 179000000
+    },
+    {
+     "level": 3,
+     "rank": 22,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 179000000
+    },
+    {
+     "level": 3,
+     "rank": 22,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 179000000
+    },
+    {
+     "level": 3,
+     "rank": 22,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 179000000
+    },
+    {
+     "level": 3,
+     "rank": 22,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 179000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P021",
+    "overall_rank": 22,
+    "total_level": 16,
+    "total_xp": 895000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p022",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 23,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 178000000
+    },
+    {
+     "level": 3,
+     "rank": 23,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 178000000
+    },
+    {
+     "level": 3,
+     "rank": 23,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 178000000
+    },
+    {
+     "level": 3,
+     "rank": 23,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 178000000
+    },
+    {
+     "level": 3,
+     "rank": 23,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 178000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P022",
+    "overall_rank": 23,
+    "total_level": 16,
+    "total_xp": 890000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p023",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 24,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 177000000
+    },
+    {
+     "level": 3,
+     "rank": 24,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 177000000
+    },
+    {
+     "level": 3,
+     "rank": 24,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 177000000
+    },
+    {
+     "level": 3,
+     "rank": 24,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 177000000
+    },
+    {
+     "level": 3,
+     "rank": 24,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 177000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P023",
+    "overall_rank": 24,
+    "total_level": 16,
+    "total_xp": 885000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p024",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 25,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 176000000
+    },
+    {
+     "level": 3,
+     "rank": 25,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 176000000
+    },
+    {
+     "level": 3,
+     "rank": 25,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 176000000
+    },
+    {
+     "level": 3,
+     "rank": 25,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 176000000
+    },
+    {
+     "level": 3,
+     "rank": 25,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 176000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P024",
+    "overall_rank": 25,
+    "total_level": 16,
+    "total_xp": 880000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p025",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 26,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 175000000
+    },
+    {
+     "level": 3,
+     "rank": 26,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 175000000
+    },
+    {
+     "level": 3,
+     "rank": 26,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 175000000
+    },
+    {
+     "level": 3,
+     "rank": 26,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 175000000
+    },
+    {
+     "level": 3,
+     "rank": 26,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 175000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P025",
+    "overall_rank": 26,
+    "total_level": 16,
+    "total_xp": 875000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p026",
+   "rows": [
+    {
+     "level": 3,
+     "rank": 27,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 174000000
+    },
+    {
+     "level": 3,
+     "rank": 27,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 174000000
+    },
+    {
+     "level": 3,
+     "rank": 27,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 174000000
+    },
+    {
+     "level": 3,
+     "rank": 27,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 174000000
+    },
+    {
+     "level": 3,
+     "rank": 27,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 174000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P026",
+    "overall_rank": 27,
+    "total_level": 16,
+    "total_xp": 870000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p027",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 28,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 173000000
+    },
+    {
+     "level": 2,
+     "rank": 28,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 173000000
+    },
+    {
+     "level": 2,
+     "rank": 28,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 173000000
+    },
+    {
+     "level": 2,
+     "rank": 28,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 173000000
+    },
+    {
+     "level": 2,
+     "rank": 28,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 173000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P027",
+    "overall_rank": 28,
+    "total_level": 11,
+    "total_xp": 865000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p028",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 29,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 172000000
+    },
+    {
+     "level": 2,
+     "rank": 29,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 172000000
+    },
+    {
+     "level": 2,
+     "rank": 29,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 172000000
+    },
+    {
+     "level": 2,
+     "rank": 29,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 172000000
+    },
+    {
+     "level": 2,
+     "rank": 29,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 172000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P028",
+    "overall_rank": 29,
+    "total_level": 11,
+    "total_xp": 860000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p029",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 30,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 171000000
+    },
+    {
+     "level": 2,
+     "rank": 30,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 171000000
+    },
+    {
+     "level": 2,
+     "rank": 30,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 171000000
+    },
+    {
+     "level": 2,
+     "rank": 30,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 171000000
+    },
+    {
+     "level": 2,
+     "rank": 30,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 171000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P029",
+    "overall_rank": 30,
+    "total_level": 11,
+    "total_xp": 855000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p030",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 31,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 170000000
+    },
+    {
+     "level": 2,
+     "rank": 31,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 170000000
+    },
+    {
+     "level": 2,
+     "rank": 31,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 170000000
+    },
+    {
+     "level": 2,
+     "rank": 31,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 170000000
+    },
+    {
+     "level": 2,
+     "rank": 31,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 170000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P030",
+    "overall_rank": 31,
+    "total_level": 11,
+    "total_xp": 850000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p031",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 32,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 169000000
+    },
+    {
+     "level": 2,
+     "rank": 32,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 169000000
+    },
+    {
+     "level": 2,
+     "rank": 32,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 169000000
+    },
+    {
+     "level": 2,
+     "rank": 32,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 169000000
+    },
+    {
+     "level": 2,
+     "rank": 32,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 169000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P031",
+    "overall_rank": 32,
+    "total_level": 11,
+    "total_xp": 845000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p032",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 33,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 168000000
+    },
+    {
+     "level": 2,
+     "rank": 33,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 168000000
+    },
+    {
+     "level": 2,
+     "rank": 33,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 168000000
+    },
+    {
+     "level": 2,
+     "rank": 33,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 168000000
+    },
+    {
+     "level": 2,
+     "rank": 33,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 168000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P032",
+    "overall_rank": 33,
+    "total_level": 11,
+    "total_xp": 840000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p033",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 34,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 167000000
+    },
+    {
+     "level": 2,
+     "rank": 34,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 167000000
+    },
+    {
+     "level": 2,
+     "rank": 34,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 167000000
+    },
+    {
+     "level": 2,
+     "rank": 34,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 167000000
+    },
+    {
+     "level": 2,
+     "rank": 34,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 167000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P033",
+    "overall_rank": 34,
+    "total_level": 11,
+    "total_xp": 835000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p034",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 35,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 166000000
+    },
+    {
+     "level": 2,
+     "rank": 35,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 166000000
+    },
+    {
+     "level": 2,
+     "rank": 35,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 166000000
+    },
+    {
+     "level": 2,
+     "rank": 35,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 166000000
+    },
+    {
+     "level": 2,
+     "rank": 35,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 166000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P034",
+    "overall_rank": 35,
+    "total_level": 11,
+    "total_xp": 830000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p035",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 36,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 165000000
+    },
+    {
+     "level": 2,
+     "rank": 36,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 165000000
+    },
+    {
+     "level": 2,
+     "rank": 36,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 165000000
+    },
+    {
+     "level": 2,
+     "rank": 36,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 165000000
+    },
+    {
+     "level": 2,
+     "rank": 36,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 165000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P035",
+    "overall_rank": 36,
+    "total_level": 11,
+    "total_xp": 825000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p036",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 37,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 164000000
+    },
+    {
+     "level": 2,
+     "rank": 37,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 164000000
+    },
+    {
+     "level": 2,
+     "rank": 37,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 164000000
+    },
+    {
+     "level": 2,
+     "rank": 37,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 164000000
+    },
+    {
+     "level": 2,
+     "rank": 37,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 164000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P036",
+    "overall_rank": 37,
+    "total_level": 11,
+    "total_xp": 820000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p037",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 38,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 163000000
+    },
+    {
+     "level": 2,
+     "rank": 38,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 163000000
+    },
+    {
+     "level": 2,
+     "rank": 38,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 163000000
+    },
+    {
+     "level": 2,
+     "rank": 38,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 163000000
+    },
+    {
+     "level": 2,
+     "rank": 38,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 163000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P037",
+    "overall_rank": 38,
+    "total_level": 11,
+    "total_xp": 815000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p038",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 39,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 162000000
+    },
+    {
+     "level": 2,
+     "rank": 39,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 162000000
+    },
+    {
+     "level": 2,
+     "rank": 39,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 162000000
+    },
+    {
+     "level": 2,
+     "rank": 39,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 162000000
+    },
+    {
+     "level": 2,
+     "rank": 39,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 162000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P038",
+    "overall_rank": 39,
+    "total_level": 11,
+    "total_xp": 810000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p039",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 40,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 161000000
+    },
+    {
+     "level": 2,
+     "rank": 40,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 161000000
+    },
+    {
+     "level": 2,
+     "rank": 40,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 161000000
+    },
+    {
+     "level": 2,
+     "rank": 40,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 161000000
+    },
+    {
+     "level": 2,
+     "rank": 40,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 161000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P039",
+    "overall_rank": 40,
+    "total_level": 11,
+    "total_xp": 805000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p040",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 41,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 160000000
+    },
+    {
+     "level": 2,
+     "rank": 41,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 160000000
+    },
+    {
+     "level": 2,
+     "rank": 41,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 160000000
+    },
+    {
+     "level": 2,
+     "rank": 41,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 160000000
+    },
+    {
+     "level": 2,
+     "rank": 41,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 160000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P040",
+    "overall_rank": 41,
+    "total_level": 11,
+    "total_xp": 800000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p041",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 42,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 159000000
+    },
+    {
+     "level": 2,
+     "rank": 42,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 159000000
+    },
+    {
+     "level": 2,
+     "rank": 42,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 159000000
+    },
+    {
+     "level": 2,
+     "rank": 42,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 159000000
+    },
+    {
+     "level": 2,
+     "rank": 42,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 159000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P041",
+    "overall_rank": 42,
+    "total_level": 11,
+    "total_xp": 795000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p042",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 43,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 158000000
+    },
+    {
+     "level": 2,
+     "rank": 43,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 158000000
+    },
+    {
+     "level": 2,
+     "rank": 43,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 158000000
+    },
+    {
+     "level": 2,
+     "rank": 43,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 158000000
+    },
+    {
+     "level": 2,
+     "rank": 43,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 158000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P042",
+    "overall_rank": 43,
+    "total_level": 11,
+    "total_xp": 790000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p043",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 44,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 157000000
+    },
+    {
+     "level": 2,
+     "rank": 44,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 157000000
+    },
+    {
+     "level": 2,
+     "rank": 44,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 157000000
+    },
+    {
+     "level": 2,
+     "rank": 44,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 157000000
+    },
+    {
+     "level": 2,
+     "rank": 44,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 157000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P043",
+    "overall_rank": 44,
+    "total_level": 11,
+    "total_xp": 785000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p044",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 45,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 156000000
+    },
+    {
+     "level": 2,
+     "rank": 45,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 156000000
+    },
+    {
+     "level": 2,
+     "rank": 45,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 156000000
+    },
+    {
+     "level": 2,
+     "rank": 45,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 156000000
+    },
+    {
+     "level": 2,
+     "rank": 45,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 156000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P044",
+    "overall_rank": 45,
+    "total_level": 11,
+    "total_xp": 780000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p045",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 46,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 155000000
+    },
+    {
+     "level": 2,
+     "rank": 46,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 155000000
+    },
+    {
+     "level": 2,
+     "rank": 46,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 155000000
+    },
+    {
+     "level": 2,
+     "rank": 46,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 155000000
+    },
+    {
+     "level": 2,
+     "rank": 46,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 155000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P045",
+    "overall_rank": 46,
+    "total_level": 11,
+    "total_xp": 775000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p046",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 47,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 154000000
+    },
+    {
+     "level": 2,
+     "rank": 47,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 154000000
+    },
+    {
+     "level": 2,
+     "rank": 47,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 154000000
+    },
+    {
+     "level": 2,
+     "rank": 47,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 154000000
+    },
+    {
+     "level": 2,
+     "rank": 47,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 154000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P046",
+    "overall_rank": 47,
+    "total_level": 11,
+    "total_xp": 770000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p047",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 48,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 153000000
+    },
+    {
+     "level": 2,
+     "rank": 48,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 153000000
+    },
+    {
+     "level": 2,
+     "rank": 48,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 153000000
+    },
+    {
+     "level": 2,
+     "rank": 48,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 153000000
+    },
+    {
+     "level": 2,
+     "rank": 48,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 153000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P047",
+    "overall_rank": 48,
+    "total_level": 11,
+    "total_xp": 765000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p048",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 49,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 152000000
+    },
+    {
+     "level": 2,
+     "rank": 49,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 152000000
+    },
+    {
+     "level": 2,
+     "rank": 49,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 152000000
+    },
+    {
+     "level": 2,
+     "rank": 49,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 152000000
+    },
+    {
+     "level": 2,
+     "rank": 49,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 152000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P048",
+    "overall_rank": 49,
+    "total_level": 11,
+    "total_xp": 760000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p049",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 50,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 151000000
+    },
+    {
+     "level": 2,
+     "rank": 50,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 151000000
+    },
+    {
+     "level": 2,
+     "rank": 50,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 151000000
+    },
+    {
+     "level": 2,
+     "rank": 50,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 151000000
+    },
+    {
+     "level": 2,
+     "rank": 50,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 151000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P049",
+    "overall_rank": 50,
+    "total_level": 11,
+    "total_xp": 755000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p050",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 51,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 150000000
+    },
+    {
+     "level": 2,
+     "rank": 51,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 150000000
+    },
+    {
+     "level": 2,
+     "rank": 51,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 150000000
+    },
+    {
+     "level": 2,
+     "rank": 51,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 150000000
+    },
+    {
+     "level": 2,
+     "rank": 51,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 150000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P050",
+    "overall_rank": 51,
+    "total_level": 11,
+    "total_xp": 750000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p051",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 52,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 149000000
+    },
+    {
+     "level": 2,
+     "rank": 52,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 149000000
+    },
+    {
+     "level": 2,
+     "rank": 52,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 149000000
+    },
+    {
+     "level": 2,
+     "rank": 52,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 149000000
+    },
+    {
+     "level": 2,
+     "rank": 52,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 149000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P051",
+    "overall_rank": 52,
+    "total_level": 11,
+    "total_xp": 745000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p052",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 53,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 148000000
+    },
+    {
+     "level": 2,
+     "rank": 53,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 148000000
+    },
+    {
+     "level": 2,
+     "rank": 53,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 148000000
+    },
+    {
+     "level": 2,
+     "rank": 53,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 148000000
+    },
+    {
+     "level": 2,
+     "rank": 53,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 148000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P052",
+    "overall_rank": 53,
+    "total_level": 11,
+    "total_xp": 740000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p053",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 54,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 147000000
+    },
+    {
+     "level": 2,
+     "rank": 54,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 147000000
+    },
+    {
+     "level": 2,
+     "rank": 54,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 147000000
+    },
+    {
+     "level": 2,
+     "rank": 54,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 147000000
+    },
+    {
+     "level": 2,
+     "rank": 54,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 147000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P053",
+    "overall_rank": 54,
+    "total_level": 11,
+    "total_xp": 735000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p054",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 55,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 146000000
+    },
+    {
+     "level": 2,
+     "rank": 55,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 146000000
+    },
+    {
+     "level": 2,
+     "rank": 55,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 146000000
+    },
+    {
+     "level": 2,
+     "rank": 55,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 146000000
+    },
+    {
+     "level": 2,
+     "rank": 55,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 146000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P054",
+    "overall_rank": 55,
+    "total_level": 11,
+    "total_xp": 730000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p055",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 56,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 145000000
+    },
+    {
+     "level": 2,
+     "rank": 56,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 145000000
+    },
+    {
+     "level": 2,
+     "rank": 56,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 145000000
+    },
+    {
+     "level": 2,
+     "rank": 56,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 145000000
+    },
+    {
+     "level": 2,
+     "rank": 56,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 145000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P055",
+    "overall_rank": 56,
+    "total_level": 11,
+    "total_xp": 725000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p056",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 57,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 144000000
+    },
+    {
+     "level": 2,
+     "rank": 57,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 144000000
+    },
+    {
+     "level": 2,
+     "rank": 57,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 144000000
+    },
+    {
+     "level": 2,
+     "rank": 57,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 144000000
+    },
+    {
+     "level": 2,
+     "rank": 57,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 144000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P056",
+    "overall_rank": 57,
+    "total_level": 11,
+    "total_xp": 720000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p057",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 58,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 143000000
+    },
+    {
+     "level": 2,
+     "rank": 58,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 143000000
+    },
+    {
+     "level": 2,
+     "rank": 58,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 143000000
+    },
+    {
+     "level": 2,
+     "rank": 58,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 143000000
+    },
+    {
+     "level": 2,
+     "rank": 58,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 143000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P057",
+    "overall_rank": 58,
+    "total_level": 11,
+    "total_xp": 715000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p058",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 59,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 142000000
+    },
+    {
+     "level": 2,
+     "rank": 59,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 142000000
+    },
+    {
+     "level": 2,
+     "rank": 59,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 142000000
+    },
+    {
+     "level": 2,
+     "rank": 59,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 142000000
+    },
+    {
+     "level": 2,
+     "rank": 59,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 142000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P058",
+    "overall_rank": 59,
+    "total_level": 11,
+    "total_xp": 710000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p059",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 60,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 141000000
+    },
+    {
+     "level": 2,
+     "rank": 60,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 141000000
+    },
+    {
+     "level": 2,
+     "rank": 60,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 141000000
+    },
+    {
+     "level": 2,
+     "rank": 60,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 141000000
+    },
+    {
+     "level": 2,
+     "rank": 60,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 141000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P059",
+    "overall_rank": 60,
+    "total_level": 11,
+    "total_xp": 705000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p060",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 61,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 140000000
+    },
+    {
+     "level": 2,
+     "rank": 61,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 140000000
+    },
+    {
+     "level": 2,
+     "rank": 61,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 140000000
+    },
+    {
+     "level": 2,
+     "rank": 61,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 140000000
+    },
+    {
+     "level": 2,
+     "rank": 61,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 140000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P060",
+    "overall_rank": 61,
+    "total_level": 11,
+    "total_xp": 700000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p061",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 62,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 139000000
+    },
+    {
+     "level": 2,
+     "rank": 62,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 139000000
+    },
+    {
+     "level": 2,
+     "rank": 62,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 139000000
+    },
+    {
+     "level": 2,
+     "rank": 62,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 139000000
+    },
+    {
+     "level": 2,
+     "rank": 62,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 139000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P061",
+    "overall_rank": 62,
+    "total_level": 11,
+    "total_xp": 695000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p062",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 63,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 138000000
+    },
+    {
+     "level": 2,
+     "rank": 63,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 138000000
+    },
+    {
+     "level": 2,
+     "rank": 63,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 138000000
+    },
+    {
+     "level": 2,
+     "rank": 63,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 138000000
+    },
+    {
+     "level": 2,
+     "rank": 63,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 138000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P062",
+    "overall_rank": 63,
+    "total_level": 11,
+    "total_xp": 690000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p063",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 64,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 137000000
+    },
+    {
+     "level": 2,
+     "rank": 64,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 137000000
+    },
+    {
+     "level": 2,
+     "rank": 64,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 137000000
+    },
+    {
+     "level": 2,
+     "rank": 64,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 137000000
+    },
+    {
+     "level": 2,
+     "rank": 64,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 137000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P063",
+    "overall_rank": 64,
+    "total_level": 11,
+    "total_xp": 685000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p064",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 65,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 136000000
+    },
+    {
+     "level": 2,
+     "rank": 65,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 136000000
+    },
+    {
+     "level": 2,
+     "rank": 65,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 136000000
+    },
+    {
+     "level": 2,
+     "rank": 65,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 136000000
+    },
+    {
+     "level": 2,
+     "rank": 65,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 136000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P064",
+    "overall_rank": 65,
+    "total_level": 11,
+    "total_xp": 680000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p065",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 66,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 135000000
+    },
+    {
+     "level": 2,
+     "rank": 66,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 135000000
+    },
+    {
+     "level": 2,
+     "rank": 66,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 135000000
+    },
+    {
+     "level": 2,
+     "rank": 66,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 135000000
+    },
+    {
+     "level": 2,
+     "rank": 66,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 135000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P065",
+    "overall_rank": 66,
+    "total_level": 11,
+    "total_xp": 675000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p066",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 67,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 134000000
+    },
+    {
+     "level": 2,
+     "rank": 67,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 134000000
+    },
+    {
+     "level": 2,
+     "rank": 67,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 134000000
+    },
+    {
+     "level": 2,
+     "rank": 67,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 134000000
+    },
+    {
+     "level": 2,
+     "rank": 67,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 134000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P066",
+    "overall_rank": 67,
+    "total_level": 11,
+    "total_xp": 670000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p067",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 68,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 133000000
+    },
+    {
+     "level": 2,
+     "rank": 68,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 133000000
+    },
+    {
+     "level": 2,
+     "rank": 68,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 133000000
+    },
+    {
+     "level": 2,
+     "rank": 68,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 133000000
+    },
+    {
+     "level": 2,
+     "rank": 68,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 133000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P067",
+    "overall_rank": 68,
+    "total_level": 11,
+    "total_xp": 665000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p068",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 69,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 132000000
+    },
+    {
+     "level": 2,
+     "rank": 69,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 132000000
+    },
+    {
+     "level": 2,
+     "rank": 69,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 132000000
+    },
+    {
+     "level": 2,
+     "rank": 69,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 132000000
+    },
+    {
+     "level": 2,
+     "rank": 69,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 132000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P068",
+    "overall_rank": 69,
+    "total_level": 11,
+    "total_xp": 660000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p069",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 70,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 131000000
+    },
+    {
+     "level": 2,
+     "rank": 70,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 131000000
+    },
+    {
+     "level": 2,
+     "rank": 70,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 131000000
+    },
+    {
+     "level": 2,
+     "rank": 70,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 131000000
+    },
+    {
+     "level": 2,
+     "rank": 70,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 131000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P069",
+    "overall_rank": 70,
+    "total_level": 11,
+    "total_xp": 655000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p070",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 71,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 130000000
+    },
+    {
+     "level": 2,
+     "rank": 71,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 130000000
+    },
+    {
+     "level": 2,
+     "rank": 71,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 130000000
+    },
+    {
+     "level": 2,
+     "rank": 71,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 130000000
+    },
+    {
+     "level": 2,
+     "rank": 71,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 130000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P070",
+    "overall_rank": 71,
+    "total_level": 11,
+    "total_xp": 650000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p071",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 72,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 129000000
+    },
+    {
+     "level": 2,
+     "rank": 72,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 129000000
+    },
+    {
+     "level": 2,
+     "rank": 72,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 129000000
+    },
+    {
+     "level": 2,
+     "rank": 72,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 129000000
+    },
+    {
+     "level": 2,
+     "rank": 72,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 129000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P071",
+    "overall_rank": 72,
+    "total_level": 11,
+    "total_xp": 645000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p072",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 73,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 128000000
+    },
+    {
+     "level": 2,
+     "rank": 73,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 128000000
+    },
+    {
+     "level": 2,
+     "rank": 73,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 128000000
+    },
+    {
+     "level": 2,
+     "rank": 73,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 128000000
+    },
+    {
+     "level": 2,
+     "rank": 73,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 128000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P072",
+    "overall_rank": 73,
+    "total_level": 11,
+    "total_xp": 640000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p073",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 74,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 127000000
+    },
+    {
+     "level": 2,
+     "rank": 74,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 127000000
+    },
+    {
+     "level": 2,
+     "rank": 74,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 127000000
+    },
+    {
+     "level": 2,
+     "rank": 74,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 127000000
+    },
+    {
+     "level": 2,
+     "rank": 74,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 127000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P073",
+    "overall_rank": 74,
+    "total_level": 11,
+    "total_xp": 635000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p074",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 75,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 126000000
+    },
+    {
+     "level": 2,
+     "rank": 75,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 126000000
+    },
+    {
+     "level": 2,
+     "rank": 75,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 126000000
+    },
+    {
+     "level": 2,
+     "rank": 75,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 126000000
+    },
+    {
+     "level": 2,
+     "rank": 75,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 126000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P074",
+    "overall_rank": 75,
+    "total_level": 11,
+    "total_xp": 630000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p075",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 76,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 125000000
+    },
+    {
+     "level": 2,
+     "rank": 76,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 125000000
+    },
+    {
+     "level": 2,
+     "rank": 76,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 125000000
+    },
+    {
+     "level": 2,
+     "rank": 76,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 125000000
+    },
+    {
+     "level": 2,
+     "rank": 76,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 125000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P075",
+    "overall_rank": 76,
+    "total_level": 11,
+    "total_xp": 625000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p076",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 77,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 124000000
+    },
+    {
+     "level": 2,
+     "rank": 77,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 124000000
+    },
+    {
+     "level": 2,
+     "rank": 77,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 124000000
+    },
+    {
+     "level": 2,
+     "rank": 77,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 124000000
+    },
+    {
+     "level": 2,
+     "rank": 77,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 124000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P076",
+    "overall_rank": 77,
+    "total_level": 11,
+    "total_xp": 620000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p077",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 78,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 123000000
+    },
+    {
+     "level": 2,
+     "rank": 78,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 123000000
+    },
+    {
+     "level": 2,
+     "rank": 78,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 123000000
+    },
+    {
+     "level": 2,
+     "rank": 78,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 123000000
+    },
+    {
+     "level": 2,
+     "rank": 78,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 123000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P077",
+    "overall_rank": 78,
+    "total_level": 11,
+    "total_xp": 615000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p078",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 79,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 122000000
+    },
+    {
+     "level": 2,
+     "rank": 79,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 122000000
+    },
+    {
+     "level": 2,
+     "rank": 79,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 122000000
+    },
+    {
+     "level": 2,
+     "rank": 79,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 122000000
+    },
+    {
+     "level": 2,
+     "rank": 79,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 122000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P078",
+    "overall_rank": 79,
+    "total_level": 11,
+    "total_xp": 610000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p079",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 80,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 121000000
+    },
+    {
+     "level": 2,
+     "rank": 80,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 121000000
+    },
+    {
+     "level": 2,
+     "rank": 80,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 121000000
+    },
+    {
+     "level": 2,
+     "rank": 80,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 121000000
+    },
+    {
+     "level": 2,
+     "rank": 80,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 121000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P079",
+    "overall_rank": 80,
+    "total_level": 11,
+    "total_xp": 605000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p080",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 81,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 120000000
+    },
+    {
+     "level": 2,
+     "rank": 81,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 120000000
+    },
+    {
+     "level": 2,
+     "rank": 81,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 120000000
+    },
+    {
+     "level": 2,
+     "rank": 81,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 120000000
+    },
+    {
+     "level": 2,
+     "rank": 81,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 120000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P080",
+    "overall_rank": 81,
+    "total_level": 11,
+    "total_xp": 600000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p081",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 82,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 119000000
+    },
+    {
+     "level": 2,
+     "rank": 82,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 119000000
+    },
+    {
+     "level": 2,
+     "rank": 82,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 119000000
+    },
+    {
+     "level": 2,
+     "rank": 82,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 119000000
+    },
+    {
+     "level": 2,
+     "rank": 82,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 119000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P081",
+    "overall_rank": 82,
+    "total_level": 11,
+    "total_xp": 595000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p082",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 83,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 118000000
+    },
+    {
+     "level": 2,
+     "rank": 83,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 118000000
+    },
+    {
+     "level": 2,
+     "rank": 83,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 118000000
+    },
+    {
+     "level": 2,
+     "rank": 83,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 118000000
+    },
+    {
+     "level": 2,
+     "rank": 83,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 118000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P082",
+    "overall_rank": 83,
+    "total_level": 11,
+    "total_xp": 590000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p083",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 84,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 117000000
+    },
+    {
+     "level": 2,
+     "rank": 84,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 117000000
+    },
+    {
+     "level": 2,
+     "rank": 84,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 117000000
+    },
+    {
+     "level": 2,
+     "rank": 84,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 117000000
+    },
+    {
+     "level": 2,
+     "rank": 84,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 117000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P083",
+    "overall_rank": 84,
+    "total_level": 11,
+    "total_xp": 585000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p084",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 85,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 116000000
+    },
+    {
+     "level": 2,
+     "rank": 85,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 116000000
+    },
+    {
+     "level": 2,
+     "rank": 85,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 116000000
+    },
+    {
+     "level": 2,
+     "rank": 85,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 116000000
+    },
+    {
+     "level": 2,
+     "rank": 85,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 116000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P084",
+    "overall_rank": 85,
+    "total_level": 11,
+    "total_xp": 580000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p085",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 86,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 115000000
+    },
+    {
+     "level": 2,
+     "rank": 86,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 115000000
+    },
+    {
+     "level": 2,
+     "rank": 86,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 115000000
+    },
+    {
+     "level": 2,
+     "rank": 86,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 115000000
+    },
+    {
+     "level": 2,
+     "rank": 86,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 115000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P085",
+    "overall_rank": 86,
+    "total_level": 11,
+    "total_xp": 575000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p086",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 87,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 114000000
+    },
+    {
+     "level": 2,
+     "rank": 87,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 114000000
+    },
+    {
+     "level": 2,
+     "rank": 87,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 114000000
+    },
+    {
+     "level": 2,
+     "rank": 87,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 114000000
+    },
+    {
+     "level": 2,
+     "rank": 87,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 114000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P086",
+    "overall_rank": 87,
+    "total_level": 11,
+    "total_xp": 570000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p087",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 88,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 113000000
+    },
+    {
+     "level": 2,
+     "rank": 88,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 113000000
+    },
+    {
+     "level": 2,
+     "rank": 88,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 113000000
+    },
+    {
+     "level": 2,
+     "rank": 88,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 113000000
+    },
+    {
+     "level": 2,
+     "rank": 88,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 113000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P087",
+    "overall_rank": 88,
+    "total_level": 11,
+    "total_xp": 565000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p088",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 89,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 112000000
+    },
+    {
+     "level": 2,
+     "rank": 89,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 112000000
+    },
+    {
+     "level": 2,
+     "rank": 89,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 112000000
+    },
+    {
+     "level": 2,
+     "rank": 89,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 112000000
+    },
+    {
+     "level": 2,
+     "rank": 89,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 112000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P088",
+    "overall_rank": 89,
+    "total_level": 11,
+    "total_xp": 560000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p089",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 90,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 111000000
+    },
+    {
+     "level": 2,
+     "rank": 90,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 111000000
+    },
+    {
+     "level": 2,
+     "rank": 90,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 111000000
+    },
+    {
+     "level": 2,
+     "rank": 90,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 111000000
+    },
+    {
+     "level": 2,
+     "rank": 90,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 111000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P089",
+    "overall_rank": 90,
+    "total_level": 11,
+    "total_xp": 555000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p090",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 91,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 110000000
+    },
+    {
+     "level": 2,
+     "rank": 91,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 110000000
+    },
+    {
+     "level": 2,
+     "rank": 91,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 110000000
+    },
+    {
+     "level": 2,
+     "rank": 91,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 110000000
+    },
+    {
+     "level": 2,
+     "rank": 91,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 110000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P090",
+    "overall_rank": 91,
+    "total_level": 11,
+    "total_xp": 550000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p091",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 92,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 109000000
+    },
+    {
+     "level": 2,
+     "rank": 92,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 109000000
+    },
+    {
+     "level": 2,
+     "rank": 92,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 109000000
+    },
+    {
+     "level": 2,
+     "rank": 92,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 109000000
+    },
+    {
+     "level": 2,
+     "rank": 92,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 109000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P091",
+    "overall_rank": 92,
+    "total_level": 11,
+    "total_xp": 545000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p092",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 93,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 108000000
+    },
+    {
+     "level": 2,
+     "rank": 93,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 108000000
+    },
+    {
+     "level": 2,
+     "rank": 93,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 108000000
+    },
+    {
+     "level": 2,
+     "rank": 93,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 108000000
+    },
+    {
+     "level": 2,
+     "rank": 93,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 108000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P092",
+    "overall_rank": 93,
+    "total_level": 11,
+    "total_xp": 540000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p093",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 94,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 107000000
+    },
+    {
+     "level": 2,
+     "rank": 94,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 107000000
+    },
+    {
+     "level": 2,
+     "rank": 94,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 107000000
+    },
+    {
+     "level": 2,
+     "rank": 94,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 107000000
+    },
+    {
+     "level": 2,
+     "rank": 94,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 107000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P093",
+    "overall_rank": 94,
+    "total_level": 11,
+    "total_xp": 535000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p094",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 95,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 106000000
+    },
+    {
+     "level": 2,
+     "rank": 95,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 106000000
+    },
+    {
+     "level": 2,
+     "rank": 95,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 106000000
+    },
+    {
+     "level": 2,
+     "rank": 95,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 106000000
+    },
+    {
+     "level": 2,
+     "rank": 95,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 106000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P094",
+    "overall_rank": 95,
+    "total_level": 11,
+    "total_xp": 530000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p095",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 96,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 105000000
+    },
+    {
+     "level": 2,
+     "rank": 96,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 105000000
+    },
+    {
+     "level": 2,
+     "rank": 96,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 105000000
+    },
+    {
+     "level": 2,
+     "rank": 96,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 105000000
+    },
+    {
+     "level": 2,
+     "rank": 96,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 105000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P095",
+    "overall_rank": 96,
+    "total_level": 11,
+    "total_xp": 525000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p096",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 97,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 104000000
+    },
+    {
+     "level": 2,
+     "rank": 97,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 104000000
+    },
+    {
+     "level": 2,
+     "rank": 97,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 104000000
+    },
+    {
+     "level": 2,
+     "rank": 97,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 104000000
+    },
+    {
+     "level": 2,
+     "rank": 97,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 104000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P096",
+    "overall_rank": 97,
+    "total_level": 11,
+    "total_xp": 520000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p097",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 98,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 103000000
+    },
+    {
+     "level": 2,
+     "rank": 98,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 103000000
+    },
+    {
+     "level": 2,
+     "rank": 98,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 103000000
+    },
+    {
+     "level": 2,
+     "rank": 98,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 103000000
+    },
+    {
+     "level": 2,
+     "rank": 98,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 103000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P097",
+    "overall_rank": 98,
+    "total_level": 11,
+    "total_xp": 515000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p098",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 99,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 102000000
+    },
+    {
+     "level": 2,
+     "rank": 99,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 102000000
+    },
+    {
+     "level": 2,
+     "rank": 99,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 102000000
+    },
+    {
+     "level": 2,
+     "rank": 99,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 102000000
+    },
+    {
+     "level": 2,
+     "rank": 99,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 102000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P098",
+    "overall_rank": 99,
+    "total_level": 11,
+    "total_xp": 510000000
+   }
+  },
+  {
+   "case": "capped_boards",
+   "key": "p099",
+   "rows": [
+    {
+     "level": 2,
+     "rank": 100,
+     "skill": "mining",
+     "title": "Mining",
+     "trained": true,
+     "xp": 101000000
+    },
+    {
+     "level": 2,
+     "rank": 100,
+     "skill": "woodcutting",
+     "title": "Woodcutting",
+     "trained": true,
+     "xp": 101000000
+    },
+    {
+     "level": 2,
+     "rank": 100,
+     "skill": "smithing",
+     "title": "Smithing",
+     "trained": true,
+     "xp": 101000000
+    },
+    {
+     "level": 2,
+     "rank": 100,
+     "skill": "crafting",
+     "title": "Crafting",
+     "trained": true,
+     "xp": 101000000
+    },
+    {
+     "level": 2,
+     "rank": 100,
+     "skill": "fishing",
+     "title": "Fishing",
+     "trained": true,
+     "xp": 101000000
+    },
+    {
+     "level": 1,
+     "rank": null,
+     "skill": "cooking",
+     "title": "Cooking",
+     "trained": false,
+     "xp": 0
+    }
+   ],
+   "summary": {
+    "best": "mining",
+    "is_demo": false,
+    "name": "P099",
+    "overall_rank": 100,
+    "total_level": 11,
+    "total_xp": 505000000
+   }
+  }
+ ],
  "formatting": [
   {
    "in": 0,

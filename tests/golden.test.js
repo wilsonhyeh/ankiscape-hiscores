@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { levelFromXpMicro } from "../public/lib/levels.js";
+import { levelFromXpMicro, xpProgress, xpToNext } from "../public/lib/levels.js";
 import * as m from "../public/lib/model.js";
 
 const golden = JSON.parse(readFileSync(new URL("./golden.json", import.meta.url), "utf8"));
@@ -47,5 +47,24 @@ test("player index, Overall levels and population match the add-on", () => {
     assert.deepEqual(m.rerankByLevel(c.rows_with_levels.overall), c.reranked_overall, `${c.name}/rerank`);
     const [trained, untrained] = m.splitTrained(c.rows_with_levels.overall);
     assert.deepEqual([trained.length, untrained.length], c.split_overall, `${c.name}/split`);
+  }
+});
+
+test("XP bar progress and XP-to-next match the add-on", () => {
+  assert.ok(golden.bars.length >= 20);
+  for (const b of golden.bars) {
+    assert.equal(xpProgress(b.xp, TH, b.level), b.progress, `progress ${b.xp}@${b.level}`);
+    assert.equal(xpToNext(b.xp, TH, b.level), b.to_next, `toNext ${b.xp}@${b.level}`);
+  }
+});
+
+test("player cards (summary and six skill rows) match the add-on", () => {
+  assert.ok(golden.cards.length >= 50);
+  const indexes = new Map(golden.index_cases.map((c) => [c.name, m.playerIndex(c.boards)]));
+  for (const c of golden.cards) {
+    const entry = indexes.get(c.case).get(c.key);
+    assert.ok(entry, `${c.case}/${c.key}`);
+    assert.deepEqual(m.cardSummary(entry, TH), c.summary, `${c.case}/${c.key} summary`);
+    assert.deepEqual(m.cardRows(entry, TH), c.rows, `${c.case}/${c.key} rows`);
   }
 });
