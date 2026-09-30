@@ -1,5 +1,7 @@
 # ankiscape-hiscores
 
+Live at https://hiscores.ankiscape.xyz/ (Cloudflare Pages). Repo: https://github.com/wilsonhyeh/ankiscape-hiscores
+
 Read-only public Hiscores page for [AnkiScape](https://github.com/wilsonhyeh/ankiscape), planned for `hiscores.ankiscape.xyz`. It shows the same username, level and XP as the Hiscores inside the add-on. Nothing is written back.
 
 - **Page:** `public/` (plain HTML/CSS/ES modules, no build step, no dependencies at runtime).
