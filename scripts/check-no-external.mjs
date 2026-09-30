@@ -4,6 +4,8 @@ import { join } from "node:path";
 
 const root = new URL("../public/", import.meta.url).pathname;
 const exts = new Set([".html", ".css", ".js"]);
+// XML namespace identifiers look like URLs but are never requested.
+const NAMESPACES = ["http://www.w3.org/2000/svg"];
 const problems = [];
 function walk(dir) {
   for (const name of readdirSync(dir)) {
@@ -12,6 +14,7 @@ function walk(dir) {
     else if (exts.has(name.slice(name.lastIndexOf(".")))) {
       const text = readFileSync(p, "utf8");
       for (const m of text.matchAll(/(?:https?:)?\/\/[A-Za-z0-9.-]+\.[A-Za-z]{2,}[^\s"')]*/g)) {
+        if (m[0] === NAMESPACES[0]) continue; // an identifier string, never fetched
         problems.push(`${p.slice(root.length)}: ${m[0]}`);
       }
     }
